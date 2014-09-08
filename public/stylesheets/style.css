@@ -1,0 +1,97 @@
+body {
+  padding-top: 50px;
+  font: 14px Verdana, Helvetica, Arial, sans-serif;
+  background-color: rgb(252,252,252);
+}
+
+nav.header {
+  background-color: #f1f1f1;
+  opacity: 0.9;
+} 
+
+span.header {
+  color: #3493a8;
+}
+
+.entry {
+  padding: 8px 5px 8px 15px;
+}
+
+.btn-default{
+  border-color: #3493a8;
+  background-color: #3493a8;
+  color: #f1f1f1;
+}
+.btn-default:hover{
+  border-color: #44a3b8;
+  background-color: #44a3b8;
+  color: #f1f1f1;
+}
+
+.logo {
+  padding: 4px 0px 4px 20px
+}
+
+.content {
+  padding-bottom: 40px;
+}
+
+.introduction {
+  padding: 5px 10px 30px;
+  color: #444;
+}
+
+.intropic {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: rgb(248,195,0);
+}
+
+h2.intro {
+  text-align: center;
+  color: #444;
+}
+
+ul.intro {
+  font-size: 18px;
+}
+
+h1.percent {
+  text-align: center;
+  font-size: 42px;
+}
+
+p.percent {
+  font-size: 18px;
+  text-align: center;
+}
+
+.reasonsrow {
+  padding-top: 30px;
+}
+
+.reasonsicon {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 42px;
+  color: rgb(52, 147, 168);
+}
+
+.reasons {
+  font-size: 16px;
+  color: #444;
+  text-align: left;
+}
+
+.footer {
+  background-color: #3493a8;
+  color: #f1f1f1;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 11px;
+  margin: 0; 
+}
