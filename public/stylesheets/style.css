@@ -1,12 +1,29 @@
-@media (min-width: 480px) {
+@media (max-width: 520px) {
   body{
     padding-top: 50px;
   }
+  span.header {
+    font-size: 14px;
+  }
+  .logo {
+    padding: 4px 0px 4px 10px;
+  }
 }
 
+@media (min-width: 520px) {
+  body{
+    padding-top: 50px;
+  }
+  .logo {
+    padding: 4px 0px 4px 20px
+  }
+}
 @media (min-width: 768px) {
   body{
     padding-top: 100px;
+  }
+  .logo {
+    padding: 4px 0px 4px 20px
   }
 }
 
@@ -14,7 +31,10 @@
   body{
     padding-top:50px;
   }
-}
+  .logo {
+    padding: 4px 0px 4px 20px
+  }
+  }
 
 body {
   font: 14px Verdana, Helvetica, Arial, sans-serif;
@@ -43,10 +63,6 @@ span.header {
   border-color: #44a3b8;
   background-color: #44a3b8;
   color: #f1f1f1;
-}
-
-.logo {
-  padding: 4px 0px 4px 20px
 }
 
 .content {
