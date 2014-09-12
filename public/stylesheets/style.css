@@ -5,8 +5,11 @@
   span.header {
     font-size: 14px;
   }
+  .navbar-brand{
+    padding: 15px 5px;
+  }
   .logo {
-    padding: 4px 0px 4px 10px;
+    padding: 4px 0px 4px 5px;
   }
 }
 
@@ -47,6 +50,7 @@ nav.header {
 } 
 
 span.header {
+  padding-left: 0px;
   color: #3493a8;
 }
 
