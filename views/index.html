@@ -16,11 +16,16 @@
 
     <nav class="header navbar navbar-default navbar-fixed-top" role="navigation" >
       <div class="container-fluid">
-        <div class="nav navbar-nav navbar-left logo">
-          <img src="images/logo.png" height="42">
-        </div>
-        
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="pull-left logo">
+            <img src="images/logo.png" height="42">
+          </div>
           <a class="navbar-brand" href="http://www.isgefest.ru">
             <span class="header">
               Информационная система ГЕФЕСТ
@@ -28,15 +33,16 @@
           </a>
         </div>
 
-        <div class="nav navbar-nav navbar-right entry">
-          <a href="https://billing.isgefest.ru"><button class="btn btn-default btn-entry"><i class="fa fa-database"></i> Вход в систему</button></a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="nav navbar-nav navbar-right entry">
+            <a href="https://billing.isgefest.ru"><button class="btn btn-default btn-entry"><i class="fa fa-database"></i> Вход в систему</button></a>
+          </div>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a><span class="header"><i class="fa fa-phone"></i> +7 953 883 8555</span></a></li>
+            <li><a><span class="header"><i class="glyphicon glyphicon-envelope"></i> info@isgefest.ru</span></a></li>
+          </ul>
         </div>
-        
-        <ul class="nav navbar-nav navbar-right">
-          <li><a><span class="header"><i class="fa fa-phone"></i> +7 953 883 8555</span></a></li>
-          <li><a><span class="header"><i class="glyphicon glyphicon-envelope"></i> info@isgefest.ru</span></a></li>
-        </ul>
-      
       </div>
     </nav><!-- /.header -->
 
