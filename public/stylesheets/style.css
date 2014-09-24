@@ -55,6 +55,10 @@ span.header {
   color: #3493a8;
 }
 
+.navbar-header {
+  display: inline;
+}
+
 .entry {
   padding: 8px 5px 8px 15px;
 }
