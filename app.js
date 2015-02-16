@@ -6,6 +6,7 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
+
 app.engine('html', require('ejs').renderFile)
 
 
