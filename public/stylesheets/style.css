@@ -1,7 +1,4 @@
 @media (max-width: 520px) {
-  body{
-    padding-top: 50px;
-  }
   .navbar-brand{
     padding: 15px 5px;
   }
@@ -11,45 +8,30 @@
 }
 
 @media (min-width: 520px) and (max-width: 767px) {
-  body{
-    padding-top: 50px;
-  }
   .logo {
     padding: 4px 0px 4px 20px
   }
 }
 
-@media (min-width: 768px) and (max-width: 935px) {
-  body{
-    padding-top: 100px;
-  }
-  .logo {
-    padding: 4px 0px 4px 20px
-  }
-}
-
-@media (min-width: 936px) {
-  body{
-    padding-top:50px;
-  }
+@media (min-width: 768px) {
   .logo {
     padding: 4px 0px 4px 20px
   }
 }
 
 body {
+  padding-top: 50px;
   font: 14px Verdana, Helvetica, Arial, sans-serif;
-  background-color: rgb(252,252,252);
 }
 
 nav.header {
-  background-color: #f9f9f9;
+  background-color: #eee;
   opacity: 0.9;
 } 
 
 span.header {
   padding-left: 0px;
-  color: #3493a8;
+  color: #555;
 }
 
 .navbar-header {
@@ -71,8 +53,23 @@ span.header {
   color: #f1f1f1;
 }
 
-.content {
+.content1 {
+  background-color: #fafafa;
+}
+
+.figure{
+  text-align: center;
+}
+
+.content5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(200,200,200);
+}
+
+.content2 {
   padding-bottom: 40px;
+  background-color: #f3f3f3;
 }
 
 .introduction {
@@ -85,29 +82,24 @@ span.header {
   margin: 0px auto;
   text-align: center;
   font-size: 100px;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 20px;
   color: rgb(248,195,0);
 }
 
 h2.intro {
   text-align: center;
-  color: #444;
+  color: #248398;
 }
 
 ul.intro {
   font-size: 18px;
 }
 
-h2.percent {
-  text-align: center;
-  font-size: 32px;
+ul.intro li{
+  padding-bottom: 6px;
 }
 
-p.percent {
-  font-size: 18px;
-  text-align: center;
-}
 
 .reasonsrow {
   padding-top: 30px;
@@ -116,14 +108,15 @@ p.percent {
 .reasonsicon {
   text-align: center;
   vertical-align: middle;
-  font-size: 42px;
+  font-size: 36px;
   color: rgb(52, 147, 168);
 }
 
 .reasons {
-  font-size: 16px;
+  font-size: 18px;
   color: #444;
   text-align: left;
+  /*vertical-align: middle;*/
 }
 
 .footer {
